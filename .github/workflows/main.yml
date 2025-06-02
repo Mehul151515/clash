@@ -2,7 +2,7 @@ name: clash
 
 on:
   schedule:
-    - cron: '30 13 * * *'  # Run daily at 10:30 AM UTC (4:00 PM Indian time - UTC+5:30)
+    - cron: '30 14 * * *'  # Run daily at 10:30 AM UTC (4:00 PM Indian time - UTC+5:30)
   workflow_dispatch:     # Allow manual triggering
 
 jobs:
